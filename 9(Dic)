@@ -1,0 +1,25 @@
+#Concept of dictionary
+#key(any datatype)->>value(any datatype)
+ 
+ 
+ #ITS IS MUTABLE IN NATURE->>>
+d={1:"ishan",2:"Winner",3:"Impact"}
+print(d)
+d[2]="SUPERMAN"
+print(d)
+
+#adding elements in dictionary->
+dic={}
+dic["ishan"]="SDE"
+dic["DIDA"]="lawyer"
+dic["PAPA"]="professor"
+dic["MUMMA"]="MY EVERYTHING"
+print(dic)
+
+#accessing values in dictinary
+print(dic["ishan"])
+print(dic.get("ishan")) #wont give out of bound error
+
+print(len(dic))
+for i in dic:
+    print(i,dic[i])
