@@ -1,5 +1,6 @@
 #Understanding sets->
  #sets->You cant access the individual elements in sets but yes its mutable ie we can add/remove the elements in python.
+#EVERY ELEMENT IN SET IS UNIQUE.
 s={1,2,3,4,5,6,7,8,-3,-1,-8}
 s.add(29)
 print(s) #->added 29 randomly. positioning isnt meaningful in sets :)
