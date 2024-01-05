@@ -1,0 +1,14 @@
+#understanding Functions.
+def isGreater(a,b): #this fn is demanding two parameters and returning nothing as of now
+    if(a>b):
+        print("A")
+    else:
+        print("B")
+        
+def avg(a,b): #this function is asking for two parameters as of now. also it is returning a value. therefore it shall be called as x=avg(a,b)
+    return (a+b)/2
+    
+    
+#default argument->
+def average(a=2,b=4): #agr koi value nahi daali to yahi default value lelega
+    return (a+b)/2
