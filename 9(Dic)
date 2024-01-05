@@ -23,3 +23,6 @@ print(dic.get("ishan")) #wont give out of bound error
 print(len(dic))
 for i in dic:
     print(i,dic[i])
+
+#also we can merge two dictionaries by the following inbuilt function-
+dic1.update(dic2)
