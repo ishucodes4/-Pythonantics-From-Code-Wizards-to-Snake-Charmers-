@@ -1,0 +1,26 @@
+#Understanding sets->
+ #sets->You cant access the individual elements in sets but yes its mutable ie we can add/remove the elements in python.
+s={1,2,3,4,5,6,7,8,-3,-1,-8}
+s.add(29)
+print(s) #->added 29 randomly. positioning isnt meaningful in sets :)
+
+#length
+n=len(s)
+print(n)
+
+#removing element
+s.remove(29)
+print(s)
+
+#removal of random element
+print(s.pop())
+print(s)
+
+s.clear()
+print(s)
+
+#union of 2 sets->
+s3=s1.union(s2)
+
+#intersection of 2 sets->
+s3=s1.intersection(s2)
