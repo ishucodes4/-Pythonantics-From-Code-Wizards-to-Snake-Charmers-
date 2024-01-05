@@ -1,0 +1,13 @@
+#Reverse a string
+s="ishan"
+n=len(s)
+ans=""
+print(n)
+for i in range (0,5):
+    ans=ans+s[n-1-i]
+    
+print(ans)
+
+#inbuilt function to reverse a string
+s1="".join(reversed(s))
+print(s1)
