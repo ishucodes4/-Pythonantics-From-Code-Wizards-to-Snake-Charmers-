@@ -1,0 +1,20 @@
+#strings in python are immutable in nature-
+s="ishan"
+print(s)
+s[1]='A'
+print(s) #shall throw an error.
+
+#In python List Sets and dictionary are mutable in nature.While tuples,strings are immutable in nature.
+
+#basic string concept
+a="iamishan"
+print(a[0]) #that how we can retrieve value in strings.
+#how to find length of the string
+print(len(a))
+
+
+#understanding slicing in python
+b=a[0:2]  #shall print values of index 0,1
+print(b)
+c=a[0:6:2]#shall print index 0,2,4
+print(c)
