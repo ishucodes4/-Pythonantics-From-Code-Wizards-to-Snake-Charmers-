@@ -25,3 +25,9 @@ s3=s1.union(s2)
 
 #intersection of 2 sets->
 s3=s1.intersection(s2)
+
+set1 = {10, 20, 30}
+set2 = {20, 40, 50}
+
+set1.difference_update(set2) ->>>removes all elements of set2 present in set1(if exists).
+print(set1)
