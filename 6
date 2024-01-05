@@ -1,0 +1,10 @@
+#remove Every EMPTY TUPLE FROM THE LIST
+l=[(1,2,3),(),(4,5,6),(),()]
+newl=[]
+
+for i in l:
+    if(len(i)!=0):
+        newl.append(i)
+        
+        
+print(newl)
