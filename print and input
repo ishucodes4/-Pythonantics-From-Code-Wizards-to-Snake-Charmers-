@@ -1,0 +1,14 @@
+#how to print something in python
+print("hello World")
+
+#input function always return strings
+x=input("enter a number")
+print(type(x))
+
+#Create a function that takes 2 input from the users and returns average of both.therefore typecasting should always be keep in mind while solving problems related to the input.
+def avg():
+    x=int(input("enter first number"))
+    y=int(input("enter second number"))
+    return (x+y)/2
+
+print(avg())
