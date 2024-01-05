@@ -1,0 +1,8 @@
+#variable length arguments->takes argument as a tuples.
+# * means taking tuple as my input here :)
+def average (* numbers):
+    print(type(numbers))
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    return sum/len(numbers)
