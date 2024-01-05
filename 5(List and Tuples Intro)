@@ -1,0 +1,45 @@
+#list->dyanmically size array.
+
+#how to declare a list.
+lst1=[]
+lst2=[1,2,35,"ishan","Hero"]
+
+#lists are mutable in nature
+lst2[4]="superhero"
+print(lst2)  # prints the modified lists for real !! :)
+
+#varios inbuilt functions of lists are->
+lst=[]
+
+lst.append(1) #adds element in the last of the list.
+lst.append("ishan")
+lst.append("Dwivedi") 
+print(lst)  #prints the new list.
+
+x=lst.pop()
+print(x) #removes the last element from the list
+print(lst) #prints the remaining list
+
+#we used lst.insert(index,element)-> to add element in specific index
+lst.insert(0,"Eminem")#inserting element at index 0
+print(lst)
+
+lst.extend([1,2,3]) #accepts List as a parameter.
+print(lst)
+
+lst.remove("Eminem") #removing a specific element here
+print(lst)
+
+print(len(lst)) #printing the length
+
+new_list=[3,5,6,1,2] #sorting of the list.
+new_list.sort()
+print(new_list)
+
+
+
+
+
+#Understanding tuples-> immutable in nature
+tp=(1,2,3,4,5)
+print(len(tp))
